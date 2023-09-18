@@ -23,7 +23,7 @@ func (node *Node) Serve(reqChan chan *Request, resChan chan<- *Request) {
 		case <-node.isOffline:
 			fmt.Printf("[%d] node killed 🛑\n", node.id)
 			// broadcast it to other nodes
-			// otherwise our req will be lost
+			// otherwise our req will be lost, since node failed after accepting request
 			go func(req *Request) {
 				resChan <- req
 			}(req)
