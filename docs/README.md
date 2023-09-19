@@ -24,6 +24,27 @@ The RLFT-Arch-Simulator project aims to demonstrate the principles of building a
 ![Architecture Diagram](https://github.com/anurag0608/RLFT-Arch-Simulator/blob/master/docs/rl-ft-arch.png)
 *Description: A visual representation of the RLFT architecture.*
 
+## Architecture Explanation
+Components
+  - [Cluster](#cluster)
+  - [Node](#node)
+  - [Client Code](#client)
+    
+<a name="cluster" />
+
+### Cluster: 
+The cluster's job is to **create**, **spawn** and **monitor nodes health**.
+
+<a name="node" />
+
+### Node:
+Handle requests and sends response back to client (max k reqs at the time i.e each node is rate-limited)
+
+<a name="client" />
+
+### Client Code
+- **sendRequest** routine - sends requests to a single channel (unbuffered)
+- **responseGrabber** routine - receives response from nodes
 <a name="features" />
 
 ## Features
