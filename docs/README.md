@@ -8,7 +8,7 @@ RLFT-Arch-Simulator is a simulation of an architecture for a rate-limited fault-
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
+- [Running the simulation](#running-the-simul)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -32,7 +32,7 @@ The RLFT-Arch-Simulator project aims to demonstrate the principles of building a
 - Written in GoLang, making it easy to explore the codebase.
 - Educational resource for learning about server architecture concepts.
 
-<a name="installation" />
+<a name="running-the-simul" />
 
 ## Running the simulation
 
