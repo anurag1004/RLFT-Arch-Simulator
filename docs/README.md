@@ -70,4 +70,4 @@ I encourage contributions that improve the clarity and educational value of the 
 <a name="license" />
 
 ## License
-This project is licensed under the [MIT License](LICENCE). Feel free to use, modify, and distribute it as per the terms of the license.
+This project is licensed under the [MIT License](docs/LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
