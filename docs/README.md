@@ -21,7 +21,7 @@ The RLFT-Arch-Simulator project aims to demonstrate the principles of building a
 
 ## Architecture Diagram
 
-![Architecture Diagram](https://github.com/anurag0608/RLFT-Arch-Simulator/blob/master/docs/rl-ft-arch.png)
+![Architecture Diagram](https://github.com/anurag1004/RLFT-Arch-Simulator/blob/master/docs/rl-ft-arch.png)
 *Description: A visual representation of the RLFT architecture.*
 
 ## Architecture Explanation
